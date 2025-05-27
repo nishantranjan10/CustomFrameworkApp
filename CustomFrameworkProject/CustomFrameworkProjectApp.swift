@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CustomFramework
 
 @main
 struct CustomFrameworkProjectApp: App {

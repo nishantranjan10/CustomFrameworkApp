@@ -1,0 +1,15 @@
+{
+  "originHash" : "1cbe6b758117acf3aa6a27b909f4dbef8ee5e1174da9eba55643987f3ee0d0f3",
+  "pins" : [
+    {
+      "identity" : "customframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nishantranjan10/CustomFramework.git",
+      "state" : {
+        "revision" : "02a49c205116094579dc834828bb1d6e033f50a8",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

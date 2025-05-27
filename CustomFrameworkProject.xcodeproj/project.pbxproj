@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		19BE34AD2DE5CF9E00F8493A /* CustomFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 19BE34AC2DE5CF9E00F8493A /* CustomFramework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		19BE34622DE5A6B100F8493A /* CustomFrameworkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFrameworkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BE34AD2DE5CF9E00F8493A /* CustomFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = CustomFrameworkProject;
 			packageProductDependencies = (
+				19BE34AC2DE5CF9E00F8493A /* CustomFramework */,
 			);
 			productName = CustomFrameworkProject;
 			productReference = 19BE34622DE5A6B100F8493A /* CustomFrameworkProject.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 19BE34592DE5A6B100F8493A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				19BE34AB2DE5CF9E00F8493A /* XCRemoteSwiftPackageReference "CustomFramework" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 19BE34632DE5A6B100F8493A /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19BE34AB2DE5CF9E00F8493A /* XCRemoteSwiftPackageReference "CustomFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nishantranjan10/CustomFramework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19BE34AC2DE5CF9E00F8493A /* CustomFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19BE34AB2DE5CF9E00F8493A /* XCRemoteSwiftPackageReference "CustomFramework" */;
+			productName = CustomFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 19BE345A2DE5A6B100F8493A /* Project object */;
 }
